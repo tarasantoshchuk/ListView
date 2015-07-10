@@ -190,7 +190,6 @@ public class ContactAdapter extends BaseAdapter{
                     && (halfWidth / inSampleSize) > viewWidth) {
                 inSampleSize *= IN_SAMPLE_MULT;
             }
-
             return inSampleSize;
         }
 
